@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#00000000" 
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/text_fps"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="#00FF00"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="8"
+        android:text="FPS: 0" />
+
+    <TextView
+        android:id="@+id/text_cpu"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="8"
+        android:text="CPU: 0% (0°C)" />
+
+    <TextView
+        android:id="@+id/text_gpu"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="8"
+        android:text="GPU: 0% | 0MHz (0°C)" />
+
+    <TextView
+        android:id="@+id/text_batt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="#0A84FF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="8"
+        android:text="BATT: 0°C" />
+</LinearLayout>

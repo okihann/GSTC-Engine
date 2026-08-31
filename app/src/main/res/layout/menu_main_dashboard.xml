@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thermal Engine"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Profile Configuration:"
+        android:textColor="#8E8E93"
+        android:textSize="14sp"
+        android:layout_gravity="start"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/profile_dropdown"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1C1C1E"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_toggle_profile"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Start Profiling"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0A84FF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:stateListAnimator="@null" />
+</LinearLayout>
